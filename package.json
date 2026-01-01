@@ -1,0 +1,37 @@
+{
+  "name": "wily-bot",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch-path=./src --watch-path=./.env src/index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "whatsapp",
+    "baileys",
+    "wilykun"
+  ],
+  "author": "Bang Wily <6289688206739> | Telegram: @Wilykun1994",
+  "license": "MIT",
+  "description": "WhatsApp Bot by Bang Wily - Base dari Bang Dika Ardnt, di recode ulang oleh Bang Wilykun. Script ini FREE, tidak untuk diperjualbelikan!",
+  "dependencies": {
+    "@google/genai": "^1.33.0",
+    "@hapi/boom": "^10.0.1",
+    "@tobyg74/tiktok-api-dl": "^1.3.7",
+    "axios": "^1.13.2",
+    "baileys": "https://github.com/WhiskeySockets/Baileys/releases/download/v7.0.0-rc.6/baileys.tgz",
+    "dotenv": "^17.2.3",
+    "fb-downloader-scrapper": "^3.0.1",
+    "form-data": "^4.0.5",
+    "jintr": "^3.3.1",
+    "node-fetch": "^3.3.2",
+    "pino": "^10.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.34.5",
+    "wa-sticker-formatter": "^4.4.4",
+    "youtubei.js": "^16.0.1"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+sessions
+package-lock.json
+.env
+test*
+attached_assets
+.upm
+.cache
+.local
+tmp/*
+!tmp/.gitkeep
+node_modules/

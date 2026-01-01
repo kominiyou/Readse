@@ -1,0 +1,69 @@
+{
+  "autoOnline": {
+    "enabled": true,
+    "intervalSeconds": 30
+  },
+  "memoryMonitor": {
+    "enabled": true,
+    "limitMB": 2048,
+    "checkIntervalMs": 60000,
+    "logUsage": true,
+    "autoDetectLimit": true,
+    "autoDetectPercentage": 100
+  },
+  "autoReadStory": {
+    "enabled": true,
+    "autoReaction": true,
+    "randomDelay": true,
+    "delayMinMs": 1000,
+    "delayMaxMs": 20000,
+    "fixedDelayMs": 500,
+    "syncOnConnect": false,
+    "syncIntervalMinutes": 30
+  },
+  "autoTyping": {
+    "enabled": false,
+    "delaySeconds": 5,
+    "privateChat": true,
+    "groupChat": true
+  },
+  "autoRecording": {
+    "enabled": false,
+    "delaySeconds": 5,
+    "privateChat": true,
+    "groupChat": true
+  },
+  "antiDelete": {
+    "enabled": false,
+    "privateChat": false,
+    "groupChat": false
+  },
+  "telegram": {
+    "enabled": false,
+    "token": "7615726934:AAHPLAWQQKc_3yVzvdrvlEQO6426bgUyl00",
+    "chatId": "5810736154"
+  },
+  "antiCall": {
+    "enabled": false,
+    "message": "Maaf, bot tidak menerima panggilan call. Silakan kirim pesan teks saja ya.",
+    "whitelist": []
+  },
+  "antiCallVideo": {
+    "enabled": false,
+    "message": "Maaf, bot tidak menerima panggilan video. Silakan kirim pesan teks saja ya.",
+    "whitelist": []
+  },
+  "sticker": {
+    "pack": "Alamak",
+    "author": "Wilykun"
+  },
+  "autoSimi": {
+    "enabled": false,
+    "apiKey": "ISI_API_KEY_GROQ_DISINI"
+  },
+  "reactApi": {
+    "enabled": true,
+    "apiKey": "ISI_API_KEY_REACT_DISINI",
+    "apiUrl": "https://foreign-marna-sithaunarathnapromax-9a005c2e.koyeb.app/api/channel/react-to-post"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "privacy": {
+    "calladd": "all",
+    "defense": "off",
+    "groupadd": "all",
+    "messages": "all",
+    "online": "all",
+    "last": "all",
+    "profile": "all",
+    "readreceipts": "all",
+    "status": "contacts",
+    "stickers": "contacts"
+  }
+}
